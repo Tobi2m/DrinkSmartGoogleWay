@@ -147,7 +147,7 @@ app.get('')
 
 app.get("/",(req,res) => {
     console.log("Responding to root route")
-    res.send("Stojan du Fgt  (responding to Route)")
+    res.send("Pöll du wappla  (responding to Route)")
 })
 
 const PORT = process.env.PORT || 3003
