@@ -147,10 +147,11 @@ app.get('')
 
 app.get("/",(req,res) => {
     console.log("Responding to root route")
-    res.send("Hello from ROOT")
+    res.send("Stojan du Fgt  (responding to Route)")
 })
 
 const PORT = process.env.PORT || 3003
+// localhost:PORT
 app.listen(PORT, () => {
     console.log("Server is up and listening on : "+PORT)
 })
