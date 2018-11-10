@@ -138,7 +138,6 @@ app.get('/tab_zutat',(req, res)=>{
             res.sendStatus(500)
             return
         }
-        
 
         res.json(rows)
     })
@@ -151,7 +150,8 @@ app.get("/",(req,res) => {
     res.send("Hello from ROOT")
 })
 
-app.listen(3003, () => {
-    console.log("Server is up and listening on 3003...")
+const PORT = process.env.PORT || 3003
+app.listen(PORT, () => {
+    console.log("Server is up and listening on : "+PORT)
 })
 
