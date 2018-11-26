@@ -12,7 +12,7 @@ app.get('/tab_benutzer',(req,res)=>{
     console.log("Fetching all Users")
 
     const connection=mysql.createConnection({
-        host: 'l35.241.254.196',
+        host: '35.241.254.196',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart'
@@ -39,7 +39,7 @@ app.get('/tab_benutzer/:id',(req, res) => {
     console.log("Fetching User with id: " +req.params.id)
 
     const connection = mysql.createConnection({
-        host: 'l35.241.254.196',
+        host: '35.241.254.196',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart'
@@ -70,7 +70,7 @@ app.get('/tab_getraenk',(req, res)=>{
     console.log("Fetching all Drinks") 
 
     const connection=mysql.createConnection({
-        host: 'l35.241.254.196',
+        host: '35.241.254.196',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
@@ -97,7 +97,7 @@ app.get('/tab_getraenk/:id',(req, res)=>{
     console.log("Fetching Drink with id:  "+req.params.id)
 
     const connection=mysql.createConnection({
-        host: 'l35.241.254.196',
+        host: '35.241.254.196',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
@@ -125,7 +125,7 @@ app.get('/tab_zutat',(req, res)=>{
     console.log("Fetching all Drinks") 
 
     const connection=mysql.createConnection({
-        host: 'l35.241.254.196',
+        host: '35.241.254.196',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
