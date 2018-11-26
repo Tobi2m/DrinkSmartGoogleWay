@@ -13,10 +13,10 @@ app.get('/tab_benutzer',(req,res)=>{
 
     const connection=mysql.createConnection({
         
-        host: 'us-cdbr-iron-east-01.cleardb.net',
-        user: 'bbd883d66fc195',
-        password: '6dde4363',
-        database:'heroku_e045751d7ae8043',
+        host: '35.241.254.196',
+        user: 'Tobias',
+        password: 'Zel2!DrinkSmart',
+        database:'drinksmart'
         
     })
 
@@ -41,10 +41,10 @@ app.get('/tab_benutzer/:id',(req, res) => {
     console.log("Fetching User with id: " +req.params.id)
 
     const connection = mysql.createConnection({
-        host: 'us-cdbr-iron-east-01.cleardb.net',
-        user: 'bbd883d66fc195',
-        password: '6dde4363',
-        database:'heroku_e045751d7ae8043'
+        host: '35.241.254.196',
+        user: 'Tobias',
+        password: 'Zel2!DrinkSmart',
+        database:'drinksmart'
     })
 
     const benutzerID = req.params.id
@@ -72,10 +72,10 @@ app.get('/tab_getraenk',(req, res)=>{
     console.log("Fetching all Drinks") 
 
     const connection=mysql.createConnection({
-        host: 'us-cdbr-iron-east-01.cleardb.net',
-        user: 'bbd883d66fc195',
-        password: '6dde4363',
-        database:'heroku_e045751d7ae8043',
+        host: '35.241.254.196',
+        user: 'Tobias',
+        password: 'Zel2!DrinkSmart',
+        database:'drinksmart'
     })
 
     const drinkID = req.params.id
@@ -99,10 +99,10 @@ app.get('/tab_getraenk/:id',(req, res)=>{
     console.log("Fetching Drink with id:  "+req.params.id)
 
     const connection=mysql.createConnection({
-        host: 'us-cdbr-iron-east-01.cleardb.net',
-        user: 'bbd883d66fc195',
-        password: '6dde4363',
-        database:'heroku_e045751d7ae8043',
+        host: '35.241.254.196',
+        user: 'Tobias',
+        password: 'Zel2!DrinkSmart',
+        database:'drinksmart'
     })
     
     const queryString= "SELECT * FROM tab_getraenk WHERE GetraenkID=?"
@@ -127,10 +127,10 @@ app.get('/tab_zutat',(req, res)=>{
     console.log("Fetching all Drinks") 
 
     const connection=mysql.createConnection({
-        host: 'us-cdbr-iron-east-01.cleardb.net',
-        user: 'bbd883d66fc195',
-        password: '6dde4363',
-        database:'heroku_e045751d7ae8043',
+        host: '35.241.254.196',
+        user: 'Tobias',
+        password: 'Zel2!DrinkSmart',
+        database:'drinksmart'
     })
 
     const queryString= "SELECT * FROM tab_zutat"
