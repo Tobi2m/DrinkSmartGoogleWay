@@ -12,10 +12,11 @@ app.get('/tab_benutzer',(req,res)=>{
     console.log("Fetching all Users")
 
     const connection=mysql.createConnection({
-        host: '35.241.254.196',
+        host: 'black-nucleus-223709:europe-west1:drinksmart',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
-        database:'drinksmart'
+        database:'drinksmart',
+        
     })
 
     const queryString="SELECT * FROM tab_benutzer"
