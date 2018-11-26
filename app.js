@@ -16,6 +16,7 @@ app.get('/tab_benutzer',(req,res)=>{
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
+        socketPath: 'black-nucleus-223709:europe-west1:drinksmart'
         
     })
 
