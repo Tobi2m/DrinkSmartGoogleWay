@@ -13,7 +13,7 @@ app.get('/tab_benutzer',(req,res)=>{
 
     const connection=mysql.createConnection({
         host: 'l35.241.254.196',
-        user: 'root',
+        user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart'
     })
@@ -40,7 +40,7 @@ app.get('/tab_benutzer/:id',(req, res) => {
 
     const connection = mysql.createConnection({
         host: 'l35.241.254.196',
-        user: 'root',
+        user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart'
     })
@@ -71,7 +71,7 @@ app.get('/tab_getraenk',(req, res)=>{
 
     const connection=mysql.createConnection({
         host: 'l35.241.254.196',
-        user: 'root',
+        user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
     })
@@ -98,7 +98,7 @@ app.get('/tab_getraenk/:id',(req, res)=>{
 
     const connection=mysql.createConnection({
         host: 'l35.241.254.196',
-        user: 'root',
+        user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
     })
@@ -126,7 +126,7 @@ app.get('/tab_zutat',(req, res)=>{
 
     const connection=mysql.createConnection({
         host: 'l35.241.254.196',
-        user: 'root',
+        user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
     })
