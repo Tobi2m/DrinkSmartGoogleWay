@@ -12,7 +12,7 @@ app.get('/tab_benutzer',(req,res)=>{
     console.log("Fetching all Users")
 
     const connection=mysql.createConnection({
-        host: 'black-nucleus-223709:europe-west1:drinksmart',
+        host: '35.241.254.196',
         user: 'Tobias',
         password: 'Zel2!DrinkSmart',
         database:'drinksmart',
